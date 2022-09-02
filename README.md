@@ -31,4 +31,3 @@ All the code is tested with the unittest module. The test for the classes are in
 ## Authors
 
 - Solomon kifle - (http://github.com/solomonkifle)
-- Chigozie Emeribe
