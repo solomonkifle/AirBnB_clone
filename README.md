@@ -1,33 +1,6 @@
-### 0x00.AirBnB Clone - The Console
+# AirBnB clone - The console
 
-## Functionalities of this command interpreter:
 
-- Create a new object (ex: a new User or a new Place)
-- Retrieve an object from a file, a database etc...
-- Do operations on objects (count, compute stats, etc...)
-- Update attributes of an object
-- Destroy an object
+This is the first portion of a project to build a clone of the AirBnB website. The first goal of this project is to create a program that serializes and deserializes objects into json files, and reloads them on startup for use between sessions, or in other words making the data persist between sessions.
 
-## Environment
-
-This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
-
-## Installation
-
-- Clone this repository: git clone "https://github.com/solomonkifle/AirBnB_clone.git"
-- Access AirBnb directory: cd AirBnB_clone
-- Run hbnb(interactively): ./console and enter command
-- Run hbnb(non-interactively): echo "<command>" | ./console.py
-
-## Description
-
-This team project is part of alx Software Engineer program. It's the first step towards building a first full web application: an AirBnB clone.
-This first step consists of a custom command-line interface for data management,and the base classes for the storage of this data.
-
-## Tests
-
-All the code is tested with the unittest module. The test for the classes are inthe`test_models folder`.
-
-## Authors
-
-- Solomon kifle - (http://github.com/solomonkifle)
+The second goal of the project is to build a console to manage all this stored data. The console is made to update, delete, and create new instances of any class of data. It also keeps track of when the objects it has made were created, and updated.
